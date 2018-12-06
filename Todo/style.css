@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;  
+    background: linear-gradient(90deg,#000000,#002147);  
+
+}
+#app{
+    margin: 30px auto;
+    max-width: 500px;
+     
+}
+input{
+    border: none;
+    color: #002147;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 1.6em;
+    background: linear-gradient(90deg,red,orange);
+    opacity: 0.8;
+    transition: 0.5
+}
+input::placeholder {
+ color: black
+}
+ul{
+    margin: 0;
+    padding: 0;
+    width: 90%
+}
+li{
+    background: linear-gradient(90deg,red,orange);
+    color: #002147;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    border-bottom: 0.1px solid #505050;
+}
+.info{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.info:hover{
+    color: orange;
+}
+.fa-info{
+    color: white;
+    cursor: pointer;
+}
+.fa-times{
+    color: red;
+    cursor: pointer;
+}
+
+.showTimeInfo{
+    float: right;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    display: inline-block;
+    
+}
